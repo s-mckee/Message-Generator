@@ -10,3 +10,13 @@ const components = {
   adjectives: ["pretty", "brave", "smart", "tall", "strong", "fat"],
   names: ["Jill", "Ember", "Lily", "Kevin", "Todd", "Marshall"],
 };
+
+const drawHeader = () => {
+  let bar = "=========================\n";
+  let title = "  Silly Things Kids Say\n";
+  console.log(bar);
+  console.log(title);
+  console.log(bar);
+};
+
+// drawHeader();
